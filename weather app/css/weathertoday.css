@@ -1,0 +1,35 @@
+body{
+    background-image: url(/img/banner_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: change 50s linear infinite;
+}
+@keyframes change{
+    0%{
+        background-image: url(/img/background2.jpg);
+    }
+    20%{
+        background-image: url(/img/background4.jpg);
+    }
+    40%{
+        background-image: url(/img/banner_background.png);
+    }
+    60%{
+        background-image: url(/img/background2.jpg);
+    }
+    80%{
+        background-image: url(/img/background4.jpg);
+    }
+    100%{
+        background-image: url(/img/banner_background.png);
+    }
+
+}
+.return a {
+    font-family: 'The Nautigal', cursive;
+    font-size: 40px;
+}
+
+.return {
+    margin-top: 10px;
+}

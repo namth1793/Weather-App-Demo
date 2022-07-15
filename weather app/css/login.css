@@ -1,0 +1,39 @@
+body {
+    background-image: url(/img/banner_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 80px;
+}
+
+.return a {
+    font-family: 'The Nautigal', cursive;
+    font-size: 40px;
+}
+
+.return {
+    margin-top: 10px;
+}
+
+.form_login {
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form_submit button {
+    font-weight: 700;
+}
+
+.form_submit button:hover {
+    background-color: black;
+    color: white;
+}
+#show{
+    margin-left: 160px;
+}
